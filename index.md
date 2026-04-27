@@ -1,70 +1,35 @@
-<style>
-  .hero {
-    display: flex;
-    align-items: center;
-    gap: 28px;
-    margin-top: 10px;
-    margin-bottom: 26px;
-  }
+<table>
+  <tr>
+    <td width="72%" valign="top">
 
-  .hero-text {
-    flex: 1;
-  }
+<h1>Yanhui Zhong</h1>
 
-  .hero img {
-    width: 180px;
-    border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  }
+<p>
+<strong>Undergraduate Student in Automation</strong><br>
+<strong>Shandong University</strong>
+</p>
 
-  .tag {
-    display: inline-block;
-    padding: 4px 10px;
-    margin: 4px 4px 4px 0;
-    border-radius: 14px;
-    background: #f1f5f9;
-    font-size: 14px;
-  }
+<p>
+I am interested in <strong>Intelligent Vehicles</strong>, <strong>Embedded Control</strong>, 
+<strong>Robotics</strong>, <strong>Embodied Intelligence</strong>, and <strong>Intelligent Control</strong>.
+</p>
 
-  .card {
-    padding: 16px 18px;
-    margin: 14px 0;
-    border: 1px solid #e5e7eb;
-    border-radius: 14px;
-    background: #ffffff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  }
+<p>
+Currently, I mainly focus on <strong>vacuum-assisted electromagnetic intelligent vehicles</strong>, 
+including sensor-based path tracking, embedded control, parameter tuning, and real-vehicle debugging.
+</p>
 
-  .project-img {
-    width: 100%;
-    max-width: 760px;
-    border-radius: 14px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.12);
-  }
+<p>
+<a href="mailto:zhongyanhui2004@163.com">Email</a> · 
+<a href="https://github.com/zhongyanhui2004">GitHub</a>
+</p>
 
-  .small {
-    color: #666;
-    font-size: 14px;
-  }
-</style>
-
-<div class="hero">
-  <div class="hero-text">
-
-# Yanhui Zhong
-
-**Undergraduate Student in Automation**  
-**Shandong University**
-
-I am interested in **Intelligent Vehicles**, **Embedded Control**, **Robotics**, **Embodied Intelligence**, and **Intelligent Control**.
-
-Currently, I mainly focus on **vacuum-assisted electromagnetic intelligent vehicles**, including sensor-based path tracking, control strategy design, parameter tuning, and real-vehicle debugging.
-
-[Email](mailto:202300800275@mail.sdu.edu.cn) · [GitHub](https://github.com/zhongyanhui2004)
-
-  </div>
-  <img src="assets/images/profile.jpg" alt="Yanhui Zhong">
-</div>
+</td>
+<td width="28%" align="right" valign="top">
+  <img src="assets/images/profile.jpg" alt="Yanhui Zhong" width="135" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);" />
+</td>
+  </tr>
+</table>
 
 ---
 
@@ -73,13 +38,13 @@ Currently, I mainly focus on **vacuum-assisted electromagnetic intelligent vehic
 I am an undergraduate student majoring in **Automation** at **Shandong University**.  
 My academic and practical interests mainly lie in **intelligent vehicle systems**, **embedded control**, **sensor-based perception**, and **robotic systems**.
 
-In recent work, I have been involved in intelligent car competitions and real-vehicle debugging, especially in electromagnetic tracking, closed-loop control, and parameter optimization. I also have research experience in computer vision, focusing on cross-dataset generalization for face forgery detection.
+In recent work, I have been focusing on intelligent car competitions and real-vehicle debugging, especially in electromagnetic tracking, closed-loop control, parameter tuning, and system optimization.
+
+I also have research experience in **computer vision**, especially in cross-dataset generalization for face forgery detection.
 
 ---
 
 ## 🎓 Education
-
-<div class="card">
 
 **Shandong University**  
 B.E. in **Automation**  
@@ -101,28 +66,20 @@ B.E. in **Automation**
 - Microcontroller Principles: **95**
 - Artificial Neural Networks and Deep Learning: **98**
 
-</div>
-
 ---
 
 ## 🔍 Research Interests
 
-<span class="tag">Intelligent Vehicles</span>
-<span class="tag">Embedded Control</span>
-<span class="tag">Robotics</span>
-<span class="tag">Embodied Intelligence</span>
-<span class="tag">Intelligent Control</span>
-<span class="tag">Computer Vision</span>
+`Intelligent Vehicles` `Embedded Control` `Robotics` `Embodied Intelligence`  
+`Intelligent Control` `Computer Vision` `Autonomous Systems`
 
 ---
 
 ## 🚗 Projects & Competitions
 
-<div class="card">
-
 ### Vacuum-assisted Electromagnetic Intelligent Vehicle
 
-I am currently working on a vacuum-assisted electromagnetic intelligent vehicle system.  
+I am currently working on a **vacuum-assisted electromagnetic intelligent vehicle** system.  
 My work mainly involves:
 
 - Electromagnetic sensor-based path tracking
@@ -130,15 +87,13 @@ My work mainly involves:
 - Speed and steering control strategy design
 - Parameter tuning and real-vehicle debugging
 - Stability improvement for cornering and path following
-- Noise reduction and signal filtering for robust tracking
+- Signal filtering and noise reduction for robust tracking
 
 **Related Award**
 
 - **Provincial First Prize**, Electromagnetic Group, National Undergraduate Intelligent Car Competition
 
-</div>
-
-<div class="card">
+---
 
 ### Outdoor ROS Autonomous Vehicle
 
@@ -159,9 +114,7 @@ My work included:
 - **National First Prize**, Outdoor ROS Autonomous Vehicle Competition, National Undergraduate Intelligent Car Competition
 - **First Prize**, North China Division, Outdoor ROS Autonomous Vehicle Competition
 
-</div>
-
-<div class="card">
+---
 
 ### MCU Design and Embedded Development
 
@@ -179,13 +132,9 @@ My work and training covered:
 
 - **National Second Prize**, Lanqiao Cup MCU Design and Development Competition
 
-</div>
-
 ---
 
 ## 🔬 Research Experience
-
-<div class="card">
 
 ### Cross-dataset Generalization for Face Forgery Detection
 
@@ -201,16 +150,12 @@ My work involved:
 - Environment configuration, code debugging, experiment running, metric collection, and result analysis
 - Evaluation on datasets including **CDFv2**, **DFD**, **DFDC**, and **FFIW**
 
-A related manuscript has been submitted to **IEEE Access** and is currently under external review.  
+A manuscript related to **generalizable face forgery detection** has been submitted to **IEEE Access** and is currently under external review.  
 I contributed as a **co-first author**.
-
-</div>
 
 ---
 
 ## 🏆 Honors & Awards
-
-<div class="card">
 
 ### Competitions
 
@@ -227,53 +172,34 @@ I contributed as a **co-first author**.
 - **First-Class Outstanding Student Scholarship**, Shandong University, 2024–2025
 - **Second-Class Outstanding Student Scholarship**, Shandong University, 2023–2024
 - **Outstanding Student Cadre**, Shandong University, 2024–2025
-- **Merit Student**, School-level honor, 2023–2024
+- **Merit Student**, 2023–2024
 - **Special Talent Award**, Shandong University, 2025
 - **Outstanding Social Practice Team**, Shandong University, Winter Vacation 2024
-
-</div>
 
 ---
 
 ## 🛠️ Skills
 
-<div class="card">
-
 **Programming & Research**
 
-<span class="tag">C</span>
-<span class="tag">Python</span>
-<span class="tag">PyTorch</span>
-<span class="tag">Experiment Reproduction</span>
-<span class="tag">Result Analysis</span>
+`C` `Python` `PyTorch` `Experiment Reproduction` `Result Analysis`
 
 **Intelligent Vehicles & Control**
 
-<span class="tag">Embedded Systems</span>
-<span class="tag">Microcontroller Development</span>
-<span class="tag">PID Control</span>
-<span class="tag">Sensor Integration</span>
-<span class="tag">Electromagnetic Tracking</span>
-<span class="tag">Parameter Tuning</span>
-<span class="tag">Real-vehicle Debugging</span>
+`Embedded Systems` `Microcontroller Development` `PID Control`  
+`Sensor Integration` `Electromagnetic Tracking` `Parameter Tuning` `Real-vehicle Debugging`
 
 **Robotics & Tools**
 
-<span class="tag">ROS</span>
-<span class="tag">Gmapping</span>
-<span class="tag">Git</span>
-<span class="tag">LaTeX</span>
-<span class="tag">Overleaf</span>
-
-</div>
+`ROS` `Gmapping` `Git` `LaTeX` `Overleaf`
 
 ---
 
 ## 📸 Project Snapshot
 
-<img class="project-img" src="assets/images/project-car.jpg" alt="Vacuum-assisted electromagnetic intelligent vehicle project">
+<img src="assets/images/project-car.jpg" alt="Vacuum-assisted electromagnetic intelligent vehicle project" width="560" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);" />
 
-<p class="small">
+<p style="color: #666; font-size: 14px;">
 Vacuum-assisted electromagnetic intelligent vehicle debugging and personal homepage setup.
 </p>
 
@@ -281,6 +207,6 @@ Vacuum-assisted electromagnetic intelligent vehicle debugging and personal homep
 
 ## 📫 Contact
 
-- **Email:** [202300800275@mail.sdu.edu.cn](mailto:202300800275@mail.sdu.edu.cn)
+- **Email:** [zhongyanhui2004@163.com](mailto:zhongyanhui2004@163.com)
 - **GitHub:** [github.com/zhongyanhui2004](https://github.com/zhongyanhui2004)
 - **Homepage:** [zhongyanhui2004.github.io](https://zhongyanhui2004.github.io)
